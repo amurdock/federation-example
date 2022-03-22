@@ -1,0 +1,17 @@
+{
+  "name": "federation-example",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve:gateway": "ts-node src/gateway.ts",
+    "serve:user": "ts-node src/user.ts",
+    "serve:account": "ts-node src/account.ts"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.35.4",
+    "@apollo/gateway": "^0.49.0",
+    "apollo-server": "^3.6.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
